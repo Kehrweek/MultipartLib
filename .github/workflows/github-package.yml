@@ -1,4 +1,4 @@
-name: Gradle Package
+name: GitHub Package
 
 on: [ workflow_dispatch ]
 
