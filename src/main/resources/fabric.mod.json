@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "multipartlib",
+  "version": "${version}",
+  "name": "Multipart Lib",
+  "description": "TODO",
+  "authors": [
+    "Kehrweek"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Kehrweek",
+    "sources": "https://github.com/Kehrweek/MultipartLib"
+  },
+  "license": "MIT",
+  "icon": "assets/multipartlib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.kehrweek.multipartlib.impl.MultipartInternal"
+    ]
+  },
+  "mixins": [
+    "multipartlib.mixins.json"
+  ],
+  "accessWidener": "multipartlib.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.19.2",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "translocator": "*"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "de.kehrweek.multipartlib.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ClientPlayerInteractionManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
