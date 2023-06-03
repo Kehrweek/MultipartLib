@@ -76,8 +76,8 @@ publishing {
             name = "GitHubPackages"
             url = "https://maven.pkg.github.com/Kehrweek/multipartlib"
             credentials {
-                username = System.getenv("GITHUB_ACTOR")
-                password = System.getenv("GITHUB_TOKEN")
+                username = System.getenv("USERNAME")
+                password = System.getenv("TOKEN")
             }
         }
         // Add repositories to publish to here.
