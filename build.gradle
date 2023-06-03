@@ -72,7 +72,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/Kehrweek/MultipartLib"
+            url = "https://maven.pkg.github.com/Kehrweek/multipartlib"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
