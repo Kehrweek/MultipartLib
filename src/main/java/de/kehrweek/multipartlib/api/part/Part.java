@@ -251,6 +251,7 @@ public abstract class Part implements ItemConvertible {
                 .formatted(MPRegistry.PART.getId(this), getClass().getCanonicalName()));
     }
 
+    @ApiStatus.Experimental
     public Identifier getLootTableId() {
         if (lootTableId == null) {
             final Identifier regId = MPRegistry.PART.getId(this);

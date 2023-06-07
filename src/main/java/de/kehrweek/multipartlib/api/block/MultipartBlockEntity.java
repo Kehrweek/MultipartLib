@@ -57,7 +57,6 @@ public class MultipartBlockEntity extends BlockEntity {
         // parts
         final NbtCompound partsNbt = new NbtCompound();
         getParts().forEach((pos, state) -> {
-            // TODO use PartPos.CODEC
             final Identifier id = MPRegistry.PART_POS.getId(pos);
             if (id == null) return;
             final NbtElement stateNbt = PartState.CODEC.encodeStart(NbtOps.INSTANCE, state).result().orElseThrow();
@@ -68,7 +67,6 @@ public class MultipartBlockEntity extends BlockEntity {
         // part entities
         final NbtCompound entitiesNbt = new NbtCompound();
         getPartEntities().forEach((pos, entity) -> {
-            // TODO use PartPos.CODEC
             final Identifier id = MPRegistry.PART_POS.getId(pos);
             if (id == null) return;
             entitiesNbt.put(id.toString(), entity.createNbtWithIdentifyingData());

@@ -21,9 +21,8 @@ import org.jetbrains.annotations.ApiStatus;
 
 import static de.kehrweek.multipartlib.MultipartAPI.LOGGER;
 
-/**
- * TODO debug command to enable line render
- */
+
+// TODO debug command to enable line render
 @ApiStatus.Internal
 public final class MultipartInternal implements ModInitializer, ClientModInitializer {
 

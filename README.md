@@ -33,8 +33,8 @@ individual PartEntities.
 
 You can report bugs and crashes by opening an issue on our issue tracker.
 Before opening a new issue, use the search tool to make sure that your issue
-has not already been reported and ensure that you have completely filled out
-the issue template.
+has not already been
+reported<!-- TODO and ensure that you have completely filled out the issue template-->.
 Issues that are duplicates or do not contain the necessary information to
 triage and debug may be closed.
 
@@ -44,6 +44,10 @@ triage and debug may be closed.
 
 ![Build](https://github.com/Kehrweek/Multipartlib/actions/workflows/build.yml/badge.svg?branch=main)
 ![Package](https://github.com/Kehrweek/Multipartlib/actions/workflows/github-package.yml/badge.svg?branch=main)
+
+:warning: The Wiki might not be complete, because this library is still in
+alpha.
+If you have any questions about this library, please join the discord.
 
 ### Dependency
 
