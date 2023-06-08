@@ -1,8 +1,7 @@
 # Multipart Lib
 
 [![Fabric](https://img.shields.io/static/v1?logo=fabric&label=Fabric&message=1.19.2&color=informational)]()
-[![Modrinth](https://img.shields.io/static/v1?label=Modrinth&message=+&color=1bd96a)](https://modrinth.com/mods)
-[![CurseForge](https://img.shields.io/static/v1?label=CurseForge&message=+&color=f16436)](https://modrinth.com/mods)
+[![Modrinth](https://img.shields.io/static/v1?label=Modrinth&message=+&color=1bd96a)](https://modrinth.com/mod/multipartlib)<!-- ([![CurseForge]&#40;https://img.shields.io/static/v1?label=CurseForge&message=+&color=f16436&#41;]&#40;https://modrinth.com/mods&#41;) -->
 [![Discord](https://img.shields.io/discord/1114547799556620359?logoColor=white&color=5865f2&label=Discord&logo=discord)](https://discord.gg/2T765VZc)
 [![GitHub](https://img.shields.io/github/license/Kehrweek/MultipartLib)](https://github.com/Kehrweek/MultipartLib/blob/main/LICENSE)
 
