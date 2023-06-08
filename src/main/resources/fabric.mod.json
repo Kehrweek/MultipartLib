@@ -17,6 +17,9 @@
   "entrypoints": {
     "main": [
       "de.kehrweek.multipartlib.impl.MultipartInternal"
+    ],
+    "client": [
+      "de.kehrweek.multipartlib.impl.MultipartInternal"
     ]
   },
   "mixins": [
