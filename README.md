@@ -43,7 +43,6 @@ triage and debug may be closed.
 ## Developer Information
 
 ![Build](https://github.com/Kehrweek/Multipartlib/actions/workflows/build.yml/badge.svg?branch=main)
-![Package](https://github.com/Kehrweek/Multipartlib/actions/workflows/github-package.yml/badge.svg?branch=main)
 
 :warning: The Wiki might not be complete, because this library is still in
 alpha.
@@ -51,12 +50,21 @@ If you have any questions about this library, please join the discord.
 
 ### Dependency
 
-For development package distribution, GitHub Packages is used.
-You can find the latest packages on the right sidebar.
+[![Latest version](https://api-prd.cloudsmith.io/v1/badges/version/kehrweek-packages/multipartlib/maven/multipartlib/latest/a=noarch;xg=de.kehrweek/?render=true&show_latest=true&label=Cloudsmith&style=flat&labelColor=+)](https://cloudsmith.io/~kehrweek-packages/repos/multipartlib/packages/)
+
+For development package distribution, Cloudsmith is used.
+You can find the latest package there.
+For experimental builds use `-SNAPSHOT` in the version.
 
 ```groovy
-dependency {
-    TODO
+repositories {
+    maven {
+        name = "MultipartLib"
+        url = "https://dl.cloudsmith.io/public/kehrweek-packages/multipartlib/maven/"
+    }
+}
+dependencies {
+    modImplementation "de.kehrweek:multipartlib:<VERSION>"
 }
 ```
 
