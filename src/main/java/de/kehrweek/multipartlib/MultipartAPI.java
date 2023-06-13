@@ -24,6 +24,7 @@ public final class MultipartAPI {
 
     public static final String MOD_ID = "multipart";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+    public static boolean RENDER_DEBUG = MultipartInternal.isDev();
 
 
     private MultipartAPI() {

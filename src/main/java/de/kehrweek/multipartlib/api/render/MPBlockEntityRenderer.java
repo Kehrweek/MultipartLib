@@ -137,7 +137,8 @@ public class MPBlockEntityRenderer<T extends MultipartBlockEntity> implements Bl
         final BlockContext<BlockRenderView> blockCtx = new BlockContext<>(entity.getWorld(), entity.getPos(), entity.getCachedState(), entity);
         renderParts(blockCtx, matrices, tickDelta, vcp, light, overlay);
 
-//        renderDebug(entity, matrices, vcp);
+        if (MultipartAPI.RENDER_DEBUG)
+            renderDebug(entity, matrices, vcp);
     }
 
 }
